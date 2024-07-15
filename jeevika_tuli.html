@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <title>HTML Assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My HTML Assignment</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Basic Tags and Attributes</h2>
+            <p> <b>Hello</b>, <i>Hii</i>, and <u>There yo Go</u> :)</p>
+            <p>Visit <a href="https://example.com" target="_blank" download="example.txt">Example Website</a>.</p>
+            <img src="c:\Users\Jeevika\OneDrive\Desktop\WhatsApp Images!!\heart spiderman.jpg" alt="Sample Image" width="200" height="300">
+            <ul>
+                <li>HTML Basics - <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">W3Schools HTML Basics</a></li>
+                <li>CSS Fundamentals - <a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">W3Schools CSS Fundamentals</a></li>
+                <li>JavaScript Guide - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN JavaScript Guide</a></li>
+            </ul>
+            <ol>
+                <li>Step 1: Learn HTML - <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a></li>
+                <li>Step 2: Learn CSS - <a href="https://www.w3schools.com/css/" target="_blank">W3Schools CSS Tutorial</a></li>
+                <li>Step 3: Learn JavaScript - <a href="https://www.w3schools.com/js/" target="_blank">W3Schools JavaScript Tutorial</a></li>
+            </ol>
+            <dl>
+                <dt>HTML: </dt>
+                <dd>It's a standard language used to create and design documents on the World Wide Web. HTML describes the structure of web pages using markup. It consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear or behave in a certain way.</dd>
+                <dt>CSS : </dt>
+                <dd>It's a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS controls the layout, colors, fonts, and overall visual appearance of web pages, allowing for the separation of content (HTML) from design.</dd>
+                <dt>JSS : </dt>
+                <dd>It's a high-level, interpreted programming language that conforms to the ECMAScript specification. It is one of the core technologies of the World Wide Web, alongside HTML and CSS, and is used to create dynamic and interactive user experiences on websites and web applications.</dd>
+            </dl>
+            <br>
+            <hr>
+        </section>
+
+        <section>
+            <h2>Forms with Input Types</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="18" max="100"><br>
+
+                <label for="color">Favorite Color:</label>
+                <input type="color" id="color" name="color"><br>
+
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file"><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+
+        <section>
+            <h2>Tables</h2>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Name</th>
+                        <th colspan="2">Details</th>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jeevika Tuli</td>
+                        <td>20</td>
+                        <td>New Delhi, India</td>
+                    </tr>
+                    <tr>
+                        <td>Janvi Soni</td>
+                        <td>22</td>
+                        <td>Chandigarh, India</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">This table provides the name, age and home-town of a person.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Multimedia</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio><br>
+
+            <video controls width="400" height="300">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; File Completed Successfully!</p>
+    </footer>
+</body>
+</html>
